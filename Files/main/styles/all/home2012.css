@@ -1,0 +1,599 @@
+/********************************************************************
+* Name..............: home.css
+* Description.......: homepage template css for www.gonzaga.edu
+* Created by........: PVE
+* Modified by.......: PVE
+* Last Modified.....: 01/12/2011 - added alert styles
+********************************************************************/
+
+body {
+  background: url(../../images/all/125-bg.png) repeat-x top;
+  background-color: #F4F7F9;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  overflow: -moz-scrollbars-vertical;
+}
+
+/**** General Page Structure ****/
+
+#background_holder {
+  min-width: 960px;
+}
+
+div#wrapper {
+  width: 960px;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div#header {
+  width: 960px;
+  padding: 0;
+  margin: 10px 0 2px 0;
+  position:relative;
+}
+
+div#upper_main {
+  /*background: url() no-repeat left top;*/
+  width: 960px;
+  top: 83px;
+  height: 265px;
+}
+
+div#demo_nav {
+  height: 28px;
+  width: 960px;
+  text-align:center;
+  background-color: #0b2a50;
+  margin: 8px 0 8px 0;
+  overflow: hidden;
+}
+
+.demo_nav {
+	margin-left:3px;	
+}
+
+div#lower_main {
+  width: 958px;
+  border: 1px solid #C8D0E2;
+
+  background-color: white;
+  -moz-border-radius: 0 0 13px 13px;
+-webkit-border-radius: 0 0 13px 13px;
+border-radius: 0 0 13px 13px;
+  height: 200px;
+}
+
+div#news_main {
+  width: 958px;
+  border: 1px solid #C8D0E2;
+  -moz-border-radius: 13px;
+-webkit-border-radius: 13px;
+border-radius: 13px;
+margin:12px 0;
+overflow:visible;
+background:#eaeff5 url(../../../../../www.gonzaga.edu/Files/main/images/all/bg_news.gif) repeat-y top center;
+}
+
+
+div#homelink {
+  position: absolute;
+  float: left;
+  top: 10px;
+  left: 30px;
+  width: 300px;
+  height: 60px;
+}
+
+#homelink:hover {
+  cursor: pointer;
+}
+
+div#missionlink {
+  position: absolute;
+  margin-left: 550px;
+  top: 45px;
+  width: 410px;
+  height: 30px;
+}
+
+#missionlink:hover {
+  cursor: pointer;
+}
+
+/**** End General Page Structure ****/
+
+/**** Traditional/Global Navigation ****/
+
+div#trad_nav {
+  margin: 5px 0 14px 13px;
+  font-size: 12px;
+}
+
+.trad_nav_header a, .trad_nav_header a:visited {
+  width: 142px;
+  height: 21px;
+  float: left;
+  margin-right: 9px;
+  font-family:"UniversLTW01-57Condense 723821",Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  color: #003f72;
+  padding-top: 5px;
+  padding-left: 5px;
+  text-decoration: none;
+  display:block;
+  border-bottom:1px solid #fff;
+}
+
+.trad_nav_header a:hover, .trad_nav_header a:focus {
+	color:#0b2a50;
+  text-decoration: none;
+ 
+ border-bottom:1px solid #b9cae2;
+}
+
+.trad_nav_links {
+  width: 147px;
+  float: left;
+  margin: 0 9px 0 0;
+  border-top:1px solid #b9cae2;
+}
+
+.trad_nav_links a, .trad_nav_links a:visited {
+  color: #666;
+  text-decoration: none;
+  font-size: 12px;
+  letter-spacing: 0.4px;
+  display:block;
+  width:140px;
+  padding: 4px 2px 4px 5px;
+}
+
+.trad_nav_links a:hover, .trad_nav_links a:focus {
+  text-decoration: none;
+  background-color:#eaeff5;
+  color: #333;
+}
+
+.trad_nav_links ul {
+  padding-top:4px;
+  margin:0;
+}
+
+/**** End Traditional/Global Navigation ****/
+
+/**** Demographical Navigation ****/
+
+#demo_nav a, #demo_nav a:visited {
+  color: #c7ced7;
+  font-family:"UniversLTW01-57Condense 723821",Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 0;
+  display:block;
+  padding: 7px 17px 7px 18px;
+}
+
+#demo_nav a:hover, #demo_nav a:focus {
+  text-decoration: none;
+  color: #FFF;
+  background-color:#0b1c36;
+}
+
+.demo_nav_item {
+  text-align: center;
+  float: left;
+  border-right: 1px solid #1c416c;
+  
+}
+
+.demo_nav_item_noborder {
+  border-right: none;
+}
+
+/**** End Demographical Navigation ****/
+
+/**** Header Navigation ****/
+
+#header_nav {
+  margin: 0;
+  width: 625px;
+  height: 36px;
+  position: relative;
+  top: 0;
+  left: 330px;
+}
+
+.header_tab {
+  float: left;
+}
+
+#search_tab {
+  background: url(../../images/all/header_search_bg.gif) no-repeat left top;
+  width: 187px;
+  height: 36px;
+}
+
+#search {
+  background: url(../../images/all/search_field_bg.png) no-repeat left top;
+  height: 30px;
+  padding: 6px 0 0 23px;
+}
+
+#search input.search_field {
+  padding: 0;
+  margin: 0 25px 0 0;
+  width: 95px;
+  height: 14px;
+  border-top-width: 0;
+  border-left-width: 0;
+  font-size: 11px;
+  border-bottom-width: 0;
+  color: #333333;
+  font-family: Arial;
+  border-right-width: 0;
+}
+
+.search_button {
+  padding: 0;
+  margin: 0;
+  vertical-align: bottom;
+}
+
+/**** Sub Section Headers ****/
+#news_main h2 {
+	padding:0;
+	margin:0 0 6px 0;
+  font-size: 18px;
+  font-weight:normal;
+  border-bottom:1px solid #cfdceb;
+}
+
+#news_main h2 a, #news_main h2 a:visited{
+	padding-bottom:6px;
+	font-family:"UniversLTW01-57Condense 723821",Arial, Helvetica, sans-serif;
+  color: #003f72;
+  font-weight:normal;
+  display:block;
+  text-decoration:none;
+  border-bottom:1px solid #fff;
+}
+
+#news_main h2 a.news_blue, #news_main h2 a.news_blue:visited{
+  border-bottom:1px solid #eaeff5;
+}
+
+#news_main h2 a:hover, #news_main h2 a:hover.news_blue, #news_main h2 a:focus, #news_main h2 a:focus.news_blue{
+	color:#0b2a50;
+  text-decoration: none;
+ 
+border-bottom:1px solid #cfdceb;
+}
+
+.events_main, .spotlight_main{
+	padding:18px;
+	float:left;
+	width:243px;
+}
+
+.news_main{
+	padding:18px;
+  width:362px;
+  float:left;
+}
+
+.news_links {
+	font-size:10px;
+	color:#9fafc6;
+	margin-bottom:12px;
+}
+
+.news_links a, .news_links a:visited{
+	text-transform:uppercase;
+	text-decoration:none;
+	color:#496590;
+}
+
+.news_links a:hover, .news_links a:focus{
+	text-decoration:underline;
+	color:#003f72;
+}
+
+/**** Events Content ****/
+.events_content li{
+	color:#666;
+	line-height:1.3;
+	margin:0 0 5px 0;
+}
+
+.events_content li a, .events_content li a:visited{
+	color:#666;
+	text-decoration:none;
+	display:block;
+	padding:4px;
+}
+
+.events_content li a .event_date{
+	color:#003f72;
+	font-size:11px;
+}
+
+.news_content li a .post_date{
+	color:#003f72;
+	font-size:11px;
+}
+
+.events_content li a:hover, .events_content li a:focus{
+	color:#333;
+	background-color:#d7e0eb;
+}
+
+/**** News Content ****/
+.news_content ul{
+	margin-top:-2px;	
+}
+
+.news_content li a{
+	padding:4px;
+	display:block;
+	color:#666;
+	text-decoration:none;
+	height:68px;
+}
+.news_content li a:hover{
+	background-color:#eaeff5;
+	color:#333;
+}
+.news_content a img {
+	width:80px;
+	height:60px;
+	padding:3px;
+	background-color:#fff;
+	border:1px solid #ddd;
+	float:left;
+	margin-right:10px;
+}
+.news_content p {
+	line-height:1.5;
+	margin-top:5px;
+}
+
+/**** Spotlight Content ****/
+.spotlight_content {
+	padding:2px 0 0 4px;
+}
+.spotlight_content a img{
+	margin-bottom:10px;
+	border:2px solid #cfdceb;
+}
+
+.spotlight_content a:hover img{
+	margin-bottom:10px;
+	border:2px solid #b7c2d9;
+}
+
+.spotlight_content p {
+	line-height:1.3;
+	color:#666;
+	margin-bottom:14px;
+}
+
+.spotlight_content a, .spotlight_content a:visited {
+	line-height:1.3;
+	color:#003f72;
+	text-decoration:none;
+}
+
+.spotlight_content a:hover, .spotlight_content a:focus {
+	color:#0b2a50;
+	text-decoration:underline;
+}
+
+
+div#footer {
+  width: 960px;
+  margin: 15px 0 25px 0;
+  text-align: center;
+}
+
+#footer-links {
+  float: left;
+  padding-left: 18px;
+  text-align: left;
+  line-height: 1.6em;
+}
+
+#footer-follow {
+  float: right;
+  padding-right: 12px;
+  line-height: 1.6em;
+}
+
+#footer-follow img {
+  margin-left: 4px;
+  margin-top: -2px;
+  vertical-align: middle;
+}
+
+#footer p {
+  color: #003d6f;
+}
+
+#footer a, #footer a:visited {
+  color: #003d6f;
+  text-decoration: none;
+}
+
+#footer a:hover, #footer a:focus {
+  text-decoration: underline;
+}
+
+
+/**** End Header Navigation ****/
+
+/**** Content Area ****/
+
+div#highlights {
+  clear: left;
+  margin: 0 3px 0 3px;
+}
+
+.highlight {
+  width: 225px;
+  float: left;
+  padding: 0;
+  margin: 1px 0 0 0;
+}
+
+/**** End Content Area ****/
+
+/**** Alert ****/
+div#alert {
+  background: url(../../images/all/home-page-alert/bg-warning-fff254.jpg) repeat-x scroll center top transparent;
+  height: 60px;
+  overflow: hidden;
+}
+
+div#alert div {
+  width: 960px;
+  height: 60px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+div#alert span {
+  float: left;
+  line-height: 1.2;
+  width: 820px;
+}
+/**** End Alert ****/
+
+#footer-links p.footer-gu{
+  width: 660px;
+  color: #7e8286;
+  font-size: 11px;
+  line-height: 14px;
+  margin: 10px 0 18px 0;
+}
+
+#footer-links  p.footer-gu a:link,#footer-links  p.footer-gu a:active,#footer-links  p.footer-gu a:visited{
+  color: #7e8286;
+  text-decoration: underline;
+}
+
+#footer-links  p.footer-gu a:hover, #footer-links  p.footer-gu a:focus {
+  color: #003d71;
+  text-decoration: underline;
+}
+/*Newly Added**/
+.clear{
+	clear: both;
+	height: 0;
+	visibility: hidden;
+	display: block;
+}
+
+/******* MENU *******/
+#container{
+display: none;
+	margin: 7em auto;
+	width: 380px;
+	height: 350px;
+	border:0pt none;
+font-family:inherit;
+font-size: 100%;
+font-style:inherit;
+font-weight:inherit;
+margin:0pt;
+padding:0pt;
+vertical-align:baseline;
+}
+#container ul{
+	list-style: none;
+	list-style-position: outside;
+	border:0pt none;
+font-family:inherit;
+font-size: 100%;
+font-style:inherit;
+font-weight:inherit;
+margin:0pt;
+padding:0pt;
+vertical-align:baseline;
+}
+#container ul.menu li{
+	float: left;
+	margin-right: 5px;
+	margin-bottom: -1px;
+}
+#container ul.menu li{
+	font-weight: 800;
+	display: block;
+	padding: 5px 10px 5px 10px;
+	background: #efefef;
+	margin-bottom: -1px;
+	border: 1px solid #d0ccc9;
+	border-width: 1px 1px 1px 1px;
+	position: relative;
+	color: #898989;
+	cursor: pointer;
+}
+#container ul.menu li.active{
+	background: #fff;
+	top: 1px;
+	border-bottom: 0;
+	color: #5f95ef;
+}
+/******* /MENU *******/
+/******* CONTENT *******/
+.content{
+	margin: 0pt auto;
+	background: #efefef;
+	background: #fff;
+	border: 1px solid #d0ccc9;
+	text-align: left;
+	padding: 10px;
+	padding-bottom: 20px;
+	font-size: 14px;
+}
+.content h1{
+	line-height: 1em;
+	vertical-align: middle;
+	height: 28px;
+	padding: 0px 10px 10px 10px;
+	font-size: 24px;
+}
+/******* /CONTENT *******/
+/******* NEWS *******/
+
+.content.BTech{
+	display: block;
+	height: 350px;
+}
+/******* /NEWS *******/
+/******* TUTORIALS *******/
+
+.content.MTech{
+	display: none;
+	height: 350px;
+}
+/******* /TUTORIALS *******/
+/******* LINKS *******/
+
+.content.MBA{
+	display: none;
+	height: 350px;
+}
+.content a{
+	color: #5f95ef;
+}
+.content.MS{
+	display: none;
+	height: 350px;
+}
+.content.PhD{
+	display: none;
+	height: 350px;
+}
+/******* /LINKS *******/

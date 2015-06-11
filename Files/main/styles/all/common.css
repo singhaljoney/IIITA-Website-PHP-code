@@ -1,0 +1,462 @@
+/********************************************************************
+* Name..............: common.css
+* Description.......: common css for www.gonzaga.edu site
+* Created by........: PVE
+* Modified by.......: MPG
+* Last Modified.....: 07/24/2010 - edited headers for new nav layout, 9/24 - changed link blue
+********************************************************************/
+
+/* Form Elements */
+
+input {
+  border-top-width: 1px;
+  border-left-width: 1px;
+  font-size: 11px;
+  border-left-color: #003366;
+  border-bottom-width: 1px;
+  border-bottom-color: #003366;
+  color: #333333;
+  border-top-color: #003366;
+  font-family: verdana;
+  background-color: #ffffff;
+  border-right-width: 1px;
+  border-right-color: #003366;
+}
+
+select {
+  font-size: 11px;
+  border-left-color: #333333;
+  border-bottom-color: #333333;
+  color: #333333;
+  border-top-color: #333333;
+  font-family: verdana;
+  background-color: #ffffff;
+  border-right-color: #333333;
+}
+
+input.check {
+  border-top-width: 1px;
+  border-left-width: 1px;
+  font-size: 11px;
+  border-left-color: #003366;
+  border-bottom-width: 1px;
+  border-bottom-color: #003366;
+  color: #333333;
+  border-top-color: #003366;
+  font-family: verdana;
+  background-color: #cccccc;
+  border-right-width: 1px;
+  border-right-color: #003366;
+}
+
+input.button {
+  border-top-width: 1px;
+  border-left-width: 1px;
+  font-size: 11px;
+  border-left-color: #003366;
+  border-bottom-width: 2px;
+  border-bottom-color: #003366;
+  color: #003366;
+  border-top-color: #003366;
+  font-family: verdana;
+  background-color: #cccccc;
+  border-right-width: 2px;
+  border-right-color: #003366;
+}
+
+/* Deprecated Styles */
+
+li {
+ 
+
+}
+
+.GUGreen {
+/*color: #787827; old color */
+  color: #003f72;
+}
+
+.GUOrange {
+/*color: #c68600; old color */
+  color: #9a3b26;
+}
+
+.GUDarkOrange {
+/*color: #DD6228; old color */
+  color: #9a3b26;
+}
+
+.gu-green {
+/*color: #787827; old color */
+  color: #003f72;
+}
+
+.gu-orange {
+/*color: #c68600; old color */
+  color: #9a3b26;
+}
+
+.GU-Green {
+/*color: #787827; old color */
+  color: #003f72;
+}
+
+.GU-Orange {
+/*color: #c68600; old color */
+  color: #9a3b26;
+}
+
+.float-left {
+  float: left;
+  margin: 0px 16px 10px 0;
+}
+
+.float-right {
+  float: right;
+  margin: 0 0 10px 16px;
+}
+
+.FloatRight {
+  float: right;
+  margin: 0 0 10px 10px;
+}
+
+.Light-Orange-Background {
+/*background-color: #ffd98c; old color */
+  background-color: #EAEFF5;
+}
+
+.Light-Green-Background {
+/*background-color: #ededc5; old color */
+  background-color: #F6F2EE;
+}
+
+/* Calendar Styles */
+
+#centercalendar table {
+  
+}
+
+#centercalendar tr.header {
+  background-color: #7795BF;
+  color: white;
+}
+
+#centercalendar tr.multiday {
+  background-color: #CCCCCC;
+}
+
+#centercalendar tr.even {
+  background-color: #FFFFFF;
+}
+
+#centercalendar tr.odd {
+  background-color: #DDDDDD;
+}
+
+#centercalendar th {
+  text-align: left;
+}
+
+#centercalendar th.header {
+  text-align: center;
+}
+
+#centercalendar th.weekday {
+  width: 14%;
+}
+
+#centercalendar th.wednesday {
+  width: 16%;
+}
+
+#centercalendar td {
+  vertical-align: top;
+}
+
+#centercalendar td.weekday {
+  width: 14%;
+  background-color: #DDDDDD;
+}
+
+#centercalendar td.wednesday {
+  width: 16%;
+  background-color: #DDDDDD;
+}
+
+#centercalendar td.monthday {
+  font-weight: bold;
+  color: #999999;
+}
+
+#centercalendar a.monthdaywithevents {
+  font-weight: bold;
+  color: #9A3B26;
+  text-decoration: none;
+}
+
+/* Library Assignment Calculator */
+
+h3 {
+  color: #c68600;
+  font-size: 12px;
+}
+
+p.MilestoneText {
+  font-size: 11px;
+  padding: 0 0 20px 40px;
+}
+
+.centeredimage {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+/* Editor Resource Styles */
+
+#main_content {
+  line-height: 1.3;
+}
+
+#main_content ul, #main_content ol  {
+padding-bottom: 15px;
+}
+#main_content ul li {
+  list-style: disc;
+  margin: 3px 0px 3px 25px;
+}
+
+#main_content ol li {
+  list-style: decimal;
+  margin: 3px 0px 3px 25px;
+}
+
+#main_content #linklister li {
+  list-style: none;
+  margin: 0;
+  line-height: 1.5;
+}
+
+#main_content #quicklister li {
+  list-style: none;
+  margin: 0;
+  line-height: 1.5;
+}
+
+#main_content #demonav li {
+  list-style: none;
+  margin: 0;
+  line-height: 1.5;
+}
+
+#main_content a {
+  color: #1d4e95;
+  text-decoration: none;
+}
+
+#main_content a:hover {
+  color: #0044CC;
+  text-decoration: underline;
+}
+
+#main_content table {
+ 
+
+}
+
+#main_content td {
+  padding: .3em;
+  vertical-align: top;
+/*border: 2px solid white;*/
+}
+
+#main_content .header1, #main_content h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  color: #9a3b26;
+  font-weight: normal;
+}
+
+#main_content .header2, #main_content h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+  color: #666666;
+  font-style: italic;
+  font-weight: normal;
+  line-height: 1.3;
+  margin: 2px 0 8px 0;
+}
+
+#main_content .header3, #main_content h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 17px;
+  color: #333333;
+  line-height: 1.4;
+  font-weight: normal;
+}
+
+#main_content .header4, #main_content h4 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  color: #9a3b26;
+  line-height:1.4;
+  font-weight: normal;
+}
+
+#main_content .header5, #main_content h5 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #333333;
+  line-height:1.5;
+  font-weight: bold;
+}
+
+#main_content .header6, #main_content h6 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #9a3b26;
+  line-height:1.5;
+  font-weight: bold;
+}
+
+#main_content p {
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+address {
+	font-style:normal;
+	font-size:90%;
+	line-height:1.3;
+}
+
+#main_content .bg-dk-blue {
+  background-color: #6385B6;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+#main_content .bg-md-blue {
+  background-color: #7795BF;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+#main_content .bg-lt-blue {
+  background-color: #EAEFF5;
+}
+
+#main_content .bg-brick-red {
+  background-color: #9A3B26;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+#main_content .bg-lt-brick-red {
+  background-color: #F6F2EE;
+}
+
+#main_content .txt-brick-red {
+  color: #9A3B26;
+}
+
+#main_content .txt-lt-blue {
+  color: #1D4E95;
+}
+
+#main_content .txt-md-blue {
+  color: #003F72;
+}
+
+#main_content .txt-dk-blue {
+  color: #0B2A50;
+}
+
+#main_content .table-1 {
+  border-width: 4px;
+  border-spacing: 1px;
+  border-style: solid;
+  border-color: #dddddd;
+  border-collapse: separate;
+  background-color: #b7b7b7;
+}
+
+#main_content .table-1 tbody td {
+  border-width: 1px;
+  padding: 4px 10px;
+  border-style: solid;
+  border-color: #FFFFFF;
+  background-color: #f6f6f6;
+  background-image: url(../../images/all/bg_tbl2.gif);
+  background-repeat: repeat-x;
+  background-position: left bottom;
+}
+
+#main_content .table-1 th,#main_content .table-1 thead td {
+  border-width: 1px;
+  padding: 8px;
+  border-style: solid;
+  border-color: #ffffff;
+  background-color: #003f72;
+  color: #FFFFFF;
+}
+
+#main_content .table-2 {
+  border-width: 3px;
+  border-spacing: 0px;
+  border-style: solid;
+  border-color: #b7b7b7;
+  border-collapse: separate;
+  background-color: #b7b7b7;
+}
+
+#main_content .table-2 tbody td {
+  border-width: 1px 0 1px 0;
+  padding: 8px 10px;
+  border-style: solid;
+  border-color: #FFFFFF #FFFFFF #aaaaaa #FFFFFF;
+  background-color: #eeeeee;
+  background-image: url(../../images/all/bg_tbl3.gif);
+  background-repeat: repeat-x;
+  background-position: left bottom;
+}
+
+#main_content .table-2 th,#main_content .table-2 thead td {
+  border-width: 1px 0 1px 0;
+  padding: 8px;
+  border-style: solid;
+  border-color: #37678f #003f72 #003f72 #003f72;
+  background-color: #003f72;
+  background-image: url(../../images/all/bg_tbl3th.gif);
+  background-repeat: repeat-x;
+  background-position: left bottom;
+  color: #FFFFFF;
+}
+
+#main_content .table-3 {
+  border-width: 0 0 3px 0;
+  border-spacing: 0px;
+  border-style: solid;
+  border-color: #eee;
+  border-collapse: separate;
+  background-color: #ffffff;
+}
+
+#main_content .table-3 tbody td {
+  border-width: 0 0 1px 0;
+  padding: 6px 10px;
+  border-style: solid;
+  border-color: #dedede;
+  background-color: #FFFFFF;
+}
+
+#main_content .table-3 th, #main_content .table-3 thead td {
+  border-width: 0;
+  padding: 8px;
+  border-style: none;
+  border-color: #003f72;
+  background-color: #003f72;
+  color: #FFFFFF;
+}

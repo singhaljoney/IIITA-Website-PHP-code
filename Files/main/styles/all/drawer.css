@@ -1,0 +1,484 @@
+/********************************************************************
+* Name..............: drawer.css
+* Description.......: drawer css for www.gonzaga.edu site
+* Created by........: PVE
+* Modified by.......: PVE
+* Last Modified.....: 03/31/2010 - added system asset tags
+********************************************************************/
+
+#drawer {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  width: 960px;
+  height: 285px;
+  background: url(../../images/all/drawer_bg.gif) no-repeat;
+}
+
+#drawer a {
+  text-decoration: none;
+}
+
+#drawer img {
+  border: 0px;
+}
+
+/**** Panel 1 ****/
+
+#panel1 {
+  padding: 22px 0px 20px 0px;
+  height: 245px;
+  margin-left: 10px;
+}
+
+#panel1 a {
+  text-decoration: none;
+  cursor: pointer;
+  cursor: hand;
+}
+
+#panel1 a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  cursor: hand;
+}
+
+#panel1 h3 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: normal;
+  border-bottom: 1px solid #36A4D3;
+  color: #36A4D3;
+  padding: 0px 2px 4px 2px;
+  margin-bottom: 3px;
+}
+
+.panel1_dividers {
+  float: left;
+  height: 225px;
+  width: 450px;
+  margin-left: 10px;
+  padding-top: 0px;
+  margin-right: 0px;
+  line-height: 1.1;
+}
+
+#p1_divider2a_tab {
+  border-bottom: 1px solid #36A4D3;
+  padding-bottom: 2px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  color: #36A4D3;
+  margin-bottom: 3px;
+  margin-top: 2px;
+}
+
+#p1_divider2a_tab a {
+  color: #36A4D3;
+  text-decoration: none;
+}
+
+#p1_divider2a_tab a:hover {
+  color: #C5CCD5;
+  text-decoration: none;
+}
+
+#p1_divider2a_tab ul {
+  margin-left: 0;
+  padding-left: 0;
+  display: inline;
+}
+
+#p1_divider2a_tab ul li {
+  margin-left: 10px;
+  margin-bottom: 0;
+  padding: 0px 15px 1px 15px;
+  border: 1px solid #36A4D3;
+  display: inline;
+}
+
+.event_dates {
+  color: #36A4D3;
+}
+
+#p1_divider2b_tab {
+  border-bottom: 1px solid #36A4D3;
+  padding-bottom: 2px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  color: #36A4D3;
+  margin-bottom: 3px;
+  margin-top: 2px;
+}
+
+#p1_divider2b_tab a {
+  color: #36A4D3;
+  text-decoration: none;
+}
+
+#p1_divider2b_tab a:hover {
+  color: #C5CCD5;
+  text-decoration: none;
+}
+
+#p1_divider2b_tab ul {
+  margin-left: 0;
+  padding-left: 0;
+  display: inline;
+}
+
+#p1_divider2b_tab ul li {
+  margin-left: 10px;
+  margin-bottom: 0;
+  padding: 0px 15px 1px 15px;
+  border: 1px solid #36A4D3;
+  display: inline;
+}
+
+#acad_calendar {
+  width: 100%;
+  height: 200px;
+  overflow: auto;
+  color: #C5CCD5;
+}
+
+#acad_calendar tr {
+  border-bottom: 1px solid #092240;
+}
+
+.acad_row {
+  padding: 4px 0;
+  color: #C5CCD5;
+  padding-left: 5px;
+}
+
+.acad_row_hdr {
+  color: #C5CCD5;
+  padding-bottom: 5px;
+}
+
+/**** Panel 2 ****/
+
+#panel2 {
+  padding: 22px 0px 20px 0px;
+  height: 245px;
+  margin-left: 10px;
+}
+
+#panel2 h3 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: normal;
+  border-bottom: 1px solid #36A4D3;
+  color: #36A4D3;
+  padding: 0px 2px 4px 2px;
+  /*margin-bottom: 3px;*/
+  margin: 0px 0px 0px 0px;
+}
+
+.panel2_dividers {
+  float: left;
+  height: 225px;
+  width: 450px;
+  margin-left: 10px;
+  padding-top: 0px;
+  margin-right: 0px;
+}
+
+#p2_divider2b_tab {
+  border-bottom: 1px solid #36A4D3;
+  padding-bottom: 5px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  color: #36A4D3;
+  margin-bottom: 3px;
+}
+
+/**** Panel 3 ****/
+
+#panel3 {
+  padding: 22px 0px 20px 0px;
+  height: 245px;
+  margin-left: 10px;
+}
+
+#panel3 h3 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: normal;
+  border-bottom: 1px solid #36A4D3;
+  color: #36A4D3;
+  padding: 0px 2px 4px 2px;
+  margin-bottom: 3px;
+}
+
+.panel3_dividers {
+  float: left;
+  height: 225px;
+  width: 450px;
+  margin-left: 10px;
+  padding-top: 0px;
+  margin-right: 0px;
+}
+
+#quicklinks {
+  color: #C5CCD5;
+}
+
+#quicklinks tr {
+  border-bottom: 1px solid #092240;
+}
+
+#quicklinks a {
+  text-decoration: none;
+  color: #C5CCD5;
+}
+
+#quicklinks a:hover {
+  text-decoration: underline;
+  color: #C5CCD5;
+}
+
+.quicklinks_row {
+  padding: 4px 4px;
+  color: #C5CCD5;
+}
+
+/**** Common Panel Styles ****/
+
+.redChevron {
+  background-color: red;
+}
+
+.blueChevron {
+  background-color: blue;
+}
+
+#drawer_search_tab {
+  background: url(../../images/all/header_search_bg.png) no-repeat left top;
+  width: 187px;
+  height: 36px;
+}
+
+.panel_list_item {
+  color: #C5CCD5;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #092240;
+  padding-left: 3px;
+}
+
+.panel_list_item a {
+  color: #C5CCD5;
+  text-decoration: none;
+}
+
+.panel_list_item a:hover {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
+.panel_view_more {
+  color: #36A4D3;
+  font-size: 11px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 0px;
+}
+
+.panel_view_more a {
+  color: #36A4D3;
+  text-decoration: none;
+}
+
+.panel_view_more a:hover {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
+.panel_view_more img {
+  vertical-align: baseline;
+  margin-left: 15px;
+}
+
+#flashcontent {
+  z-index: 1;
+  position: relative;
+}
+
+#colleges_schools {
+  width: 100%;
+  height: 200px;
+  overflow: auto;
+  color: #ffffff;
+}
+
+#colleges_schools a {
+  text-decoration: none;
+  color: #C5CCD5;
+}
+
+#colleges_schools a:hover {
+  color: #C5CCD5;
+  text-decoration: underline;
+}
+
+.panel_list a {
+  color: #C5CCD5;
+}
+
+.panel_list a:hover {
+  color: #C5CCD5;
+  text-decoration: underline;
+}
+
+.panel_list h1 {
+  color: #C5CCD5;
+  font-size: 14px;
+  padding: 5px;
+}
+
+.panel_list ul h1 {
+  font-size: 14px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+}
+
+.panel_list ul li ul li {
+  padding-left: 40px;
+  line-height: 1.4;
+}
+
+.panel_list p {
+  border-bottom: 1px solid #092240;
+  line-height: 1.3;
+  padding-bottom: 6px;
+  margin-bottom: 6px;
+}
+
+.panel_list_noline {
+  width: 100%;
+  height: 200px;
+  overflow: auto;
+  color: #ffffff;
+}
+
+.panel_list_noline p {
+  line-height: 1.3;
+  color: #C5CCD5;
+  padding-right: 20px;
+}
+
+/* ALPHABET LINKS */
+
+#alphabet {
+  margin: -11px 0px 0px 0px;
+  text-align: center;
+  float: right;
+  position: relative;
+}
+
+#alphabet table {
+  width: 250px;
+  margin: 0;
+  background-color: #0B2A50;
+}
+
+#alphabet caption {
+  font-size: larger;
+  font-weight: bold;
+  margin: 1em auto 0;
+}
+
+#alphabet td {
+  color: #C5CCD5;
+  text-align: center;
+  width: 16px;
+  padding: 1px;
+}
+
+#alphabet a {
+  border: 1px solid #1D426D;
+  display: block;
+  font-size: 12px;
+  text-decoration: none;
+  color: #C5CCD5;
+}
+
+#alphabet a:hover {
+  border: 1px solid #36A4D3;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+/* LIST OF LINKS */
+
+#linklist {
+  float: left;
+  margin-bottom: 20px;
+}
+
+#linklist ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#linklist li {
+  
+}
+
+#linklist .indexlist li {
+  margin-left: 50px;
+}
+
+#linklist li ul {
+  padding: 10px 0;
+}
+
+#linklist li ul {
+  padding: 8px 0 2px 0;
+}
+
+#linklist li li {
+  padding-left: 5px;
+  margin-left: 100px;
+  background-image: none;
+  margin-bottom: 4px;
+}
+
+#linklist h2 {
+  margin: 6px 0 0 0;
+  padding: 4px 0 3px 3px;
+  border-top: 1px solid #092240;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  text-transform: normal;
+  font-weight: bold;
+}
+
+#linklist .indexlist h2 {
+  margin: 0 0 -36px 0;
+  padding: 10px 0 3px 16px;
+  border-top: 1px solid #092240;
+  border-bottom: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  text-transform: normal;
+  font-weight: normal;
+  line-height: 1;
+  color: #C5CCD5;
+}
+
+#linklist a:link {
+  text-decoration: none;
+  color: #C5CCD5;
+}
+
+#linklist a:hover {
+  text-decoration: underline;
+  color: #FFFFFF;
+}
+
+#linklist a:visited {
+  color: #C5CCD5;
+}
